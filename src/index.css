@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  background-color: #282726;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: #D9D9D9;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}

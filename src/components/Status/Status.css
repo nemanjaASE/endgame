@@ -1,0 +1,45 @@
+.status {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 8px;
+    margin-block: 10px;
+}
+
+.status.farewell {
+    padding: 6px 6px;
+    background-color: #7A5EA7;
+    border: 1px solid #323232;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: Hanken Grotesk;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+.status.won {
+    background-color: #10A95B;
+}
+
+.status.lost {
+    background-color: #BA2A2A;
+}
+
+.status > h2 {
+    margin: auto;
+    height: 26px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #F9F4DA;
+}
+
+.status > p {
+    margin: auto;
+    height: 21px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #F9F4DA;
+}

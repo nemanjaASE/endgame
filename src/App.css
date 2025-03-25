@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Hanken Grotesk;
+}
+
+.chips-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    justify-content: center;
+    gap: 4.5px;
+}
+
+.word-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 2px;
+}
+
+.word-container > span {
+    padding: 8px;
+    background-color: #323232;
+    color: #F9F4DA;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border-bottom: 1px solid #F9F4DA
+}
+
+main > button {
+    width: 228px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Hanken Grotesk;
+    background-color: #11B5E5;
+    color: #1E1E1E;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #D7D7D7
+}
